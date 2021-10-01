@@ -1,0 +1,70 @@
+.slots{
+    margin: 35px auto;
+    padding: 5px 10px 25px;
+    width: 55%;
+    background-color: #ffb703;
+    color: #002A60;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 200px;
+    box-shadow: 6px -4px 8px 6px;
+}
+
+@media screen and (max-width : 420px){
+    .slots{
+        margin: 35px -15px;
+    }
+}
+
+.slots h2{
+    font-size: calc(15px + 1vw);
+}
+
+.all-slots{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .slot1{
+
+} */
+
+.fee_type.red{
+    color: #000;
+    background-color: #BE0000;
+    border-radius: 50%;
+    width: 5%;
+    margin: 0 auto;
+    min-width: 50px;
+    padding: 1px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fee_type.green{
+    color: #000;
+    background-color: #008000;
+    border-radius: 50%;
+    width: 5%;
+    margin: 0 auto;
+    min-width: 50px;
+    padding: 1px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #0A1931;
+    padding: 4px 8px;
+    border-radius: 20px;
+    color: red;
+    font-size: calc(8px + 1vw);
+}
+
+.vaccine p{
+    font-weight: bold;
+    font-size: calc(1vw + 11px);
+}

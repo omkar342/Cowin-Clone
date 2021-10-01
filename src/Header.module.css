@@ -1,0 +1,41 @@
+.navbar{
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    background-color: #40BEB4;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+img{
+    height: 70px;
+    width: 100px;
+}
+
+@media screen and (max-width : 500px){
+    img{
+        height: 30px;
+        width: 60px;
+    }
+}
+
+.navbar a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.navbar .ministry a{
+    text-decoration: none;
+    font-size: calc(1vw + 6px);
+}
+
+.navbar a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+

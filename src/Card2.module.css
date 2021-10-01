@@ -1,0 +1,67 @@
+.card{
+    background-color: #2dc653;
+    color: #1E3770;
+    margin: -22px 0px 0px;
+    padding: 1px 0;
+}
+
+.card p{
+    margin: 10px auto;
+}
+
+.card_heading{
+    text-align: center;
+}
+
+.card_content{
+    text-align: center;
+}
+
+.card_content label{
+    font-weight: bold;
+    display: block;
+    font-size: 30px;
+    color: #fff;
+}
+
+.card_content input{
+    display: block;
+    margin: 20px auto;
+    width: calc(170px + 1vw);
+    height: 25px;
+    border: 4px solid #1E3770;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #40BEB4;
+}
+
+.card_content input::placeholder{
+    color: #F86A66;
+}
+
+.card_content button{
+    width: calc(100px + 2vw);
+    height: 34px;
+    border: 3px solid #1E3770;
+    border-radius: 10px;
+    outline: none;
+    background-color: #36dfd1;
+    color: #fff;
+    font-size: calc(11px + 0.8vw);
+    cursor: pointer;
+    box-shadow: 2px 2px 11px 1px #000000;
+}
+
+.card_content button:hover,
+.card_content button:active{
+    background-color: #00ffea;
+    color: #000000;
+    /* font-size: 20px; */
+}
+
+.vaccine_slots{
+    text-align: center;
+    margin: 10px 0px;
+}

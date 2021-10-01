@@ -1,0 +1,30 @@
+.footer{
+    background-color: #0098BB;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 0px 45px;
+}
+
+.footer a {
+    color: #011d49;
+}
+
+.footer a:hover {
+    color: #0de4c7;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+    margin: -4px 0px -9px 1px
+}
+
+/* .center{
+    transform: translateY(-50%);
+} */

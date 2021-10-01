@@ -1,0 +1,27 @@
+.card{
+    /* position: absolute; */
+    top: 200px;
+    background-color: #CC156F;
+    /* width: 96.1%; */
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;       
+}
+
+@media screen and (max-width : 550px){   
+    .card img{
+        height: 15vh;
+        width: 90%;
+        margin: 0px;
+    }
+}
+
+.card img{
+    height: 35vh;
+    width: 100%;
+    /* object-fit: scale-down; */
+    margin: 0px;
+    /* background-size: 92% auto; */
+}
